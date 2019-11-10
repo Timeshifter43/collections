@@ -1,6 +1,7 @@
 package StepikJava;
 
 import java.util.Arrays;
+import java.lang.System.*;
 
 public class lesson2and3 {
     public static void main(String[] args) {
@@ -8,7 +9,7 @@ public class lesson2and3 {
         int [] secondArr = {1,3,5,7};
 
         int result[] = lesson2and3.mergeArrays(firstArr,secondArr);
-        
+
         for(int i=0; i < result.length; i++){
             System.out.print(result[i] + "");
         }
